@@ -13,9 +13,7 @@ PyTorch implementation of [Multi-Label Image Recognition with Graph Convolutiona
 
 2. We correct the typos in Eq. (8) as follows.
 
-![](https://latex.codecogs.com/svg.latex?{A%27}_{ij}%20=%20\begin{cases}%20(p%20/%20\sum_{\substack{i=1%20\\%20i%20\neq%20j}}^{C}%20{A}_{ij})%20\times%20{A}_{ij},%20%20&%20if%20(i%20\neq%20j)%20\\1%20-%20p,%20&%20if%20(i%20=%20j)\end{cases}\,,)
-
-
+![](data/svg.svg)
 
 ### Requirements
 Please, install the following packages
