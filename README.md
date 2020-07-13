@@ -2,7 +2,7 @@
 PyTorch implementation of [Multi-Label Image Recognition with Graph Convolutional Networks](https://arxiv.org/abs/1904.03582), CVPR 2019.
 
 ## Update
-1. In our original conference paper, we report the baseline classification results using GAP for comparison, because GAP is the default choice for feature aggregation in ResNet series. In our experiments, we found that replacing GAP with GMP leads to improved performance, and thus adopt GMP with our GCN method. During the review process of our conference paper, we provided extensive ablation studies about GAP and GMP in the supplementary materials. However, because the usage of GMP is like a trick and lacks convincing explanation, we have not included the GMP results as well as the discussions about the GMP results in the camera-ready version after careful deliberation. We re-run the importance baselines and report the latest results in below table. 
+1. In our original conference paper, we report the baseline classification results using GAP for comparison, because GAP is the default choice for feature aggregation in ResNet series. In our experiments, we found that replacing GAP with GMP leads to improved performance, and thus adopt GMP with our GCN method -- we regard GMP as one part of our method. However, because the usage of GMP is like a trick and lacks convincing explanation, we have not included the GMP results as well as the discussions about the GMP results in the camera-ready version after careful deliberation. We re-run the importance baselines and report the latest results in below table.
 
 | Method    | COCO    | NUS-WIDE |VOC2007  |
 |:---------:|:-------:|:-------:|:--------:|
@@ -11,7 +11,7 @@ PyTorch implementation of [Multi-Label Image Recognition with Graph Convolutiona
 | Ours        |  83.0  | 62.8   |  94.0 |
 
 
-2. We update the equation 8 into the following form.
+2. We correct the typos in Eq. (8) as follows.
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 $$\bm{A'}_{ij} = 
 \begin{cases} 
