@@ -2,7 +2,7 @@
 PyTorch implementation of [Multi-Label Image Recognition with Graph Convolutional Networks](https://arxiv.org/abs/1904.03582), CVPR 2019.
 
 ## Update
-1. In our original conference paper, we report the baseline classification results using GAP for comparison, because GAP is the default choice for feature aggregation in ResNet series. In our experiments, we found that replacing GAP with GMP leads to improved performance, and thus adopt GMP with our GCN method -- we regard GMP as one part of our method. For clarification, we here report the corresponding results in the following table.
+1. In our original conference paper, we report the baseline classification results using GAP for comparison, because GAP is the default choice for feature aggregation in ResNet series. In our experiments, we found that replacing GAP with GMP leads to improved performance, and thus adopt GMP with our GCN method -- we regard GMP as one part of our method. For clarification, we re-run the baselines and here report the corresponding results in the following table.
 
 | Method    | COCO    | NUS-WIDE |VOC2007  |
 |:---------:|:-------:|:-------:|:--------:|
