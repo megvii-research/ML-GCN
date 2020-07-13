@@ -91,6 +91,6 @@ class GCNResnet(nn.Module):
 
 
 
-def gcn_resnet101(num_classes, t, pretrained=True, adj_file=None, in_channel=300):
+def gcn_resnet101(num_classes, t, pretrained=False, adj_file=None, in_channel=300):
     model = models.resnet101(pretrained=pretrained)
     return GCNResnet(model, num_classes, t=t, adj_file=adj_file, in_channel=in_channel)

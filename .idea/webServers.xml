@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3ac12a96-a023-476c-8819-aba9eef4a01b" name="wh" url="http://wh-a.brainpp.cn">
+        <fileTransfer host="wh-a.brainpp.cn" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/code/ML_GCN" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
