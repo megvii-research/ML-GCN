@@ -7,8 +7,8 @@ PyTorch implementation of [Multi-Label Image Recognition with Graph Convolutiona
 | Method    | COCO    | NUS-WIDE |VOC2007  |
 |:---------:|:-------:|:-------:|:--------:|
 | Res-101 GAP  | 77.3    |   56.9   |  91.7|
-| Res-101 GMP |  81.5  | 59.7   |  93.0 |
-| Ours        |  83.0  | 62.8   |  94.0 |
+| Res-101 GMP |  81.9  | 59.7   |  93.0 |
+| Ours        |  83.0  | 62.5   |  94.0 |
 
 
 2. We correct the typos in Eq. (8) as follows.
